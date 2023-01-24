@@ -189,7 +189,7 @@ footer p a {
 	#exercises {
 	border-top: 1px solid; 
 	border-bottom: 1px solid #000;
-	background: linear-gradient (to right, #ccc, #fff);
+	background: linear-gradient(to right, #ccc, #fff);
 	background-color: #f2f2f2;
 	padding: 1% 2%;	
 	}
