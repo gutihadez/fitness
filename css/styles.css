@@ -317,6 +317,15 @@ footer p a {
 	padding: 0.5% 1% 2% 0;
 	}
 	
+	.viewex { /* changes mouse pointer from arrow to hand pointer */
+		font-weight: bold;
+		cursor: pointer;
+	}
+	
+	#example { /* so video element dont appear on page */
+		display: none;
+	}
+	
 	.tel-num {
 		font-size: 1.25em;
 	}
@@ -434,6 +443,11 @@ footer p a {
 	
 	#exercises {
 		clear: left;
+	}
+	
+	.offer:hover { /* Promo offer box */
+		transform: scale(1.25);
+		cursor: pointer;
 	}
 	
 	/* Desktop Viewport: Style rules for form elements */
