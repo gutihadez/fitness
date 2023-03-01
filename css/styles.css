@@ -368,9 +368,30 @@ footer p a {
 	form {
 		width: 70%;
 		margin: 0 auto; /* to center the form */
-	}
-	
+	}	
 } /* end of tablet media query */	
+
+/* Tablet Viewport: Animation */
+@-webkit-keyframes text-animation {
+	0% { font-size: 1em; }
+	50% { font-size: 2em; }
+	100% { font-size: 1.35em; }
+}
+
+@keyframes text-animation {
+	0% { font-size: 1em; }
+	50% { font-size: 2em; }
+	100% { font-size: 1.35em; }
+}
+
+figcaption {
+	-webkit-animation-name: text-animation;
+	animation-name: text-animation;
+	-webkit-animation-delay: 3s;
+	animation-delay: 3s;
+	-webkit-animation-duration: 5s;
+	animation-duration: 5s;
+}
 
 /* Media Query for Desktop Viewport */
 @media screen and (min-width: 1015px), print {
