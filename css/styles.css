@@ -264,7 +264,7 @@ footer p a {
 		display: block;
 	}
 	.mobile, .mobile-nav {
-	display: none;
+		display: none;
 	}
 	/* Tablet Viewport Style rule for header */
 	header {
